@@ -31,6 +31,7 @@ class MenuSettingsAbout extends Ui.Menu {
     Menu.addItem(Lang.format("$1$: $2$", [Ui.loadResource(Rez.Strings.titleVersion), Ui.loadResource(Rez.Strings.AppVersion)]), :aboutVersion);
     Menu.addItem(Lang.format("$1$: GPL 3.0", [Ui.loadResource(Rez.Strings.titleLicense)]), :aboutLicense);
     Menu.addItem(Lang.format("$1$: Cédric Dufour", [Ui.loadResource(Rez.Strings.titleAuthor)]), :aboutAuthor);
+    Menu.addItem(Lang.format("$1$: Ewout Bergsma", [Ui.loadResource(Rez.Strings.changedBy)]), :aboutAuthor);
   }
 
 }
